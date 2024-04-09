@@ -32,7 +32,7 @@ def test_add_new_pet_with_valid_data(name='Котя', animal_type='дворте�
     status, result = pf.add_new_pet(auth_key, name, animal_type, age, pet_photo)
 
     # Сверяем полученный ответ с ожидаемым результатом
-
+    assert status == 200
     assert result['name'] == name
 
 
