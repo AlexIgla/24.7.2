@@ -46,26 +46,25 @@ class PetFriends:
             result = res.text
         return status, result
 
-    def add_new_pet(self, auth_key: str, name: str, animal_type: str,
+    def add_new_pet(self, auth_key: json, name: str, animal_type: str,
                     age: str, pet_photo: str) -> json:
         """Метод отправляет (постит) на сервер данные о добавляемом питомце и возвращает статус
         запроса на сервер и результат в формате JSON с данными добавленного питомца"""
 
-        data = MultipartEncoder(
-            fields={
+        data = {
                 'name': name,
                 'animal_type': animal_type,
                 'age': age,
-                'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'images/jpeg')
-            })
-        headers = {'auth_key': auth_key['key'], 'Content-Type': data.content_type}
-
-        res = requests.post(self.base_url + 'api/pets', headers=headers, data=data)
+                'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'image/jpeg')
+            }
+        headers = {'auth_key': auth_key['key']}
+        file = {'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'image/jpeg')}
+        res = requests.post(self.base_url + 'api/pets', headers=headers, data=data, files=file)
         status = res.status_code
-        result = ""
+        result = ''
         try:
             result = res.json()
-        except json.decoder.JSONDecodeError:
+        except json.JSONDecodeError:
             result = res.text
         print(result)
         return status, result
