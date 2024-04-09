@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c685069-7ebb-4221-823c-588e33f98f4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PetFriends.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/images/Cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pet_friends.py" afterDir="false" />
+    <list default="true" id="5c685069-7ebb-4221-823c-588e33f98f4a" name="Changes" comment="выполнено без 3го теста">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +153,29 @@
       <option name="presentableId" value="Default" />
       <updated>1712564173084</updated>
     </task>
+    <task id="LOCAL-00001" summary="выполнено без 3го теста">
+      <option name="closed" value="true" />
+      <created>1712662069445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712662069445</updated>
+    </task>
+    <task id="LOCAL-00002" summary="выполнено без 3го теста">
+      <option name="closed" value="true" />
+      <created>1712662168640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712662168640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="выполнено без 3го теста" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполнено без 3го теста" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -46,7 +46,7 @@ class PetFriends:
             result = res.text
         return status, result
 
-    def add_new_pet(self, auth_key: json, name: str, animal_type: str,
+    def add_new_pet(self, auth_key: str, name: str, animal_type: str,
                     age: str, pet_photo: str) -> json:
         """Метод отправляет (постит) на сервер данные о добавляемом питомце и возвращает статус
         запроса на сервер и результат в формате JSON с данными добавленного питомца"""
@@ -56,7 +56,7 @@ class PetFriends:
                 'name': name,
                 'animal_type': animal_type,
                 'age': age,
-                'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'images/Cat.jpg')
+                'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'images/jpeg')
             })
         headers = {'auth_key': auth_key['key'], 'Content-Type': data.content_type}
 
