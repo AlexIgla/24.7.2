@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c685069-7ebb-4221-823c-588e33f98f4a" name="Changes" comment="выполнено без 3го теста">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pet_friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pet_friends.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +50,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Александр/PycharmProjects/pythonProject24",
+    "last_opened_file_path": "C:/Users/Public/Documents/24.7.2",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\24.7.2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_pet_friends.test_add_new_pet_with_valid_data">
     <configuration name="Python tests for test_pet_friends.test_add_new_pet_with_valid_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PetFriends" />
@@ -190,23 +193,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712664968032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="выполнено без 3го теста">
+      <option name="closed" value="true" />
+      <created>1712669621451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712669621451</updated>
+    </task>
+    <task id="LOCAL-00006" summary="выполнено без 3го теста">
+      <option name="closed" value="true" />
+      <created>1712669688679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712669688679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="выполнено без 3го теста" />
     <option name="LAST_COMMIT_MESSAGE" value="выполнено без 3го теста" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/api.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
