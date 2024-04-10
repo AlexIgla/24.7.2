@@ -104,7 +104,7 @@ class PetFriends:
             'age': age
         }
         headers = {'auth_key': auth_key['key']}
-        res = requests.post(self.base_url + 'api/pets', headers=headers, data=data)
+        res = requests.post(self.base_url + 'api/create_pet_simple', headers=headers, data=data)
         status = res.status_code
         result = ''
         try:
