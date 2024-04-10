@@ -96,7 +96,7 @@ class PetFriends:
             result = res.text
         return status, result
 
-    def create_pet_simple(self, auth_key: json, name: str, animal_type: str, age: str) -> json:
+    def create_pet_simple(self, auth_key, name, animal_type, age):
         """Метод позволяет добавить информацию о новом питомце без нового фото"""
         data = {
             'name': name,
